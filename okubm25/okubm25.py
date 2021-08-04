@@ -1,4 +1,5 @@
-def hello(name):
-    print('Hello, %s!' % name)
+import MeCab
 
-hello("test")
+m = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
+
+print(m.parse("コーヒー牛乳とラーメン"))
