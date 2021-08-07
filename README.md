@@ -1,2 +1,2 @@
-# oku-bm25
+# Doc-Comparator
 For research
